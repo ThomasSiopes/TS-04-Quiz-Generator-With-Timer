@@ -173,7 +173,7 @@ function rightAnswer() {
 }
 
 function wrongAnswer() {
-    //Time --
+    timerCount--;
     index++;
     if(index<questions.length) {
         generateQuestion(questions[index]);
